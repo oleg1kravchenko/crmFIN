@@ -1,7 +1,12 @@
 $(document).ready(function() {
 
+	$("#modal-authorization .modal-bottom .fancybox").click(function() {
+		$.fancybox.close(true);
+	});
+
   $("#modal-registration .btn-main").click(function(e) {
 	e.preventDefault();
+	$.fancybox.close(true);
 	$.fancybox.open({
 		src: '#modal-success',
 		type: 'inline'
@@ -19,6 +24,7 @@ $(document).ready(function() {
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
@@ -26,6 +32,8 @@ $(document).ready(function() {
 	$(".fancybox").fancybox({
 		autoFocus: false
 	});
+
+	
 
 
 
