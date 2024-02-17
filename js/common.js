@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$("#modal-authorization .modal-bottom .fancybox").click(function() {
+	$("#modal-recovery .modal-bottom .fancybox, #modal-authorization .modal-bottom .fancybox").click(function() {
 		$.fancybox.close(true);
 	});
 
