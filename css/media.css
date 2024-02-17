@@ -351,6 +351,9 @@
         height: 46px;
         border-radius: 13px;
     }
+    .str_wrap {
+        height: 45px !important;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -948,6 +951,9 @@
     }
     .modal-wrap .social-links {
         margin-bottom: 12px;
+    }
+    .str_wrap {
+        height: 31px !important;
     }
 }
 
