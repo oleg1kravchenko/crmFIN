@@ -378,6 +378,7 @@ form {
 }
 .advantages .title-section + p {
 	max-width: 525px;
+	color: #707D89;
 }
 .item-advantage {
 	padding-left: 96px;
