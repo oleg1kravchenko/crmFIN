@@ -770,7 +770,7 @@
     }
     .applications .title-main {
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 4px;
         max-width: 330px;
     }
     .applications .btn-main {
@@ -877,10 +877,11 @@
     }
     .title-main strong {
         padding: 10px 32px;
+        left: 20px;
     }
     .leads .title-main strong {
         transform: rotate(3deg);
-        top: 9px;
+        top: 7px;
     }
     .leads .btn-main {
         width: 100%;
