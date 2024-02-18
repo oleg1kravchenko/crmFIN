@@ -982,7 +982,19 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 767px) {
-
+    .btn-main:hover {
+        background-color: #0039b8;
+    }
+    .btn-main_page:hover {
+        background-color: #d3dbf2;
+    }
+    .btn-main_block:hover {
+        background: #fff;
+        color: #407BFF;
+    }
+    .btn-main_block:hover img {
+        filter: brightness(100%) invert(0);
+    }
 }
 
 /* Medium Devices, Desktops */

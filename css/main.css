@@ -136,15 +136,9 @@ form {
 	border: none;
 	transition: all 0.5s;
 }
-.btn-main:hover {
-    background-color: #0039b8;
-}
 .btn-main_page {
 	color: #407BFF;
 	background-color: #E7EDFF;
-}
-.btn-main_page:hover {
-    background-color: #d3dbf2;
 }
 .header .btn-main {
 	height: 56px;
@@ -351,13 +345,6 @@ form {
 	border: 1px solid #fff;
 	color: #fff;
 	background: transparent;
-}
-.btn-main_block:hover {
-	background: #fff;
-	color: #407BFF;
-}
-.btn-main_block:hover img {
-	filter: brightness(100%) invert(0);
 }
 .btn-main_block img {
 	filter: brightness(0) invert(1);
@@ -978,7 +965,6 @@ form {
 *:hover, 
 *:focus,
 *:active {
-	border: 0;
 	outline: 0;
 	-webkit-tap-highlight-color: transparent;
 }
