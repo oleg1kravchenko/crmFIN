@@ -52,6 +52,14 @@ input[type="button"],
 input[type="submit"] {
   -webkit-appearance: none;
 }
+*:link, 
+*:visited, 
+*:hover, 
+*:focus,
+*:active {
+	outline: 0;
+	-webkit-tap-highlight-color: transparent;
+}
 a, button, input, img {
 	transition: all 0.3s;
 }
@@ -959,12 +967,4 @@ form {
 }
 .str_wrap {
 	height: 62px !important;
-}
-*:link, 
-*:visited, 
-*:hover, 
-*:focus,
-*:active {
-	outline: 0;
-	-webkit-tap-highlight-color: transparent;
 }
